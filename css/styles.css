@@ -334,7 +334,7 @@ main {
  * `article` contexts in Chrome, Firefox, and Safari. */
 
 h1 {
-    font-size: 2em;
+    font-size: 1.8em;
     margin: 0.67em 0;
 }
 
@@ -4734,13 +4734,13 @@ html.no-csstransitions .s-hero__content {
  * ------------------------------------------------------------------- */
 @media screen and (max-width: 1600px) {
     .s-contact__email {
-        font-size: calc(var(--text-size) * 6);
+        font-size: calc(var(--text-size) * 5);
     }
 }
 
 @media screen and (max-width: 1200px) {
     .s-contact__email {
-        font-size: 10vw;
+        font-size: 8vw;
     }
 }
 
