@@ -30,6 +30,13 @@
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
     <link rel="manifest" href="site.webmanifest">
 
+    <style>
+        /* Ensure BizBond and email address don't break into two lines */
+        .no-break {
+            white-space: nowrap;
+        }
+    </style>
+
 </head>
 
 <body id="top">
@@ -50,7 +57,7 @@
 
         <div class="s-header__logo">
             <a href="index.html">
-                <h3 class="item-title">BizBond</h3>
+                <h3 class="item-title no-break">BizBond</h3>
             </a>
         </div>
 
@@ -67,7 +74,7 @@
 
             <a href="mailto:contact@bizbond.com" class="btn btn--primary btn--small">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 0l-6 22-8.129-7.239 7.802-8.234-10.458 7.227-7.215-1.754 24-12zm-15 16.668v7.332l3.258-4.431-3.258-2.901z"/></svg>
-                Get In Touch
+                <span class="no-break">Get In Touch</span>
             </a>
 
         </div> <!-- end header-content -->
@@ -430,7 +437,7 @@
         <div class="row h-text-center">
             <div class="column">
                 <p class="s-contact__email">
-                    <a href="mailto:bizbond@gmail.com">bizbond@gmail.com</a>
+                    <a href="mailto:contact@bizbond.com" class="no-break">bizbond@gmail.com</a>
                 </p>
             </div>
         </div>
@@ -472,8 +479,8 @@
 
                 <div class="ss-copyright">
                     <span>Copyright BizBond 2024</span> 
-                    <span>Developed and Designed by</span>
-                    <span><a href="https://vjraj.online" target="_blank">Vijayaraj Anbalagan</a></span>
+                    <span>Designed and Developed by</span>
+                    <span><a href="https://vjraj.online/"> Vijayaraj Anbalagan</a></span>
                 </div>
             </div>
 
@@ -484,6 +491,7 @@
             </div> <!-- end ss-go-top -->
 
         </div>
+
     </footer>
     
 
